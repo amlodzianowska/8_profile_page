@@ -1,0 +1,266 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+.content {
+    width: 900px;
+    min-height: 800px;
+    margin: 0 auto;
+    /* outline: 1px dashed tomato; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 0px 20px;
+}
+
+.column-left {
+    min-height: 800px;
+    flex: 3;
+    /* outline: 4px dashed slateblue; */
+}
+
+/* ------------------------PROFILE---------------------- */
+.profile {
+    width: 100%;
+    height: 340px;
+    outline: 2px solid teal;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.nav {
+    height: 85px;
+    background-color: teal;
+    /* align-items: flex-start; */
+}
+
+.circle > img {
+    position: absolute;
+    height: 95px;
+    top: 30px;
+    left: 35px;
+    border: 5px solid rgb(23, 26, 29);
+    border-radius: 50%;
+}
+
+.main {
+    font-size: 0.8rem;
+    margin: 55px 35px;
+    position: absolute;
+}
+
+.main > h1 {
+    margin: 0px 0px 15px 0px;
+}
+.location {
+    display: flex;
+    align-items: center;
+}
+
+.location > img, .edit > img {
+    height: 20px;
+}
+
+.location > h2, .edit > a {
+    padding: 0px 10px;
+}
+
+.edit {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.paragraphs > p {
+    margin: 5px;
+}
+
+.paragraphs {
+    margin: 10px 0px 17px;
+}
+
+p {
+    font-size: 1rem;
+}
+
+/* ------------------------PROFILE---------------------- */
+
+.lil-nav {
+    height: 45px;
+    color: whitesmoke;
+    background-color:rgb(61, 65, 70);
+    padding: 5px 35px;
+}
+
+.education {
+    width: 100%;
+    height: 320px;
+    outline: 2px solid rgb(61, 65, 70);
+}
+
+.edu-text {
+    margin: 10px 35px;
+}
+
+.edu-text p {
+    padding: 10px 0px;
+}
+.edu-text h4 {
+    padding: 10px 0px;
+    opacity: 40%;
+}
+
+/* -----------RIGHT COLUMN---------- */
+.column-right {
+    min-height: 750px;
+    flex: 2;
+    /* outline: 4px dashed slateblue; */
+}
+
+.con-req {
+    width: 100%;
+    min-height: 200px;
+    outline: 2px solid rgb(61, 65, 70);
+    margin-bottom: 30px;
+}
+
+ul {
+    padding: 2px 15px 5px 15px;
+}
+.pos-person {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pic-name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 8px 0px;
+}
+
+.prof-pic {
+    height: 50px;
+    border-radius: 50%;
+}
+
+.pic-name > h3 {
+    padding: 0 10px;
+}
+
+.icons > img {
+    height: 35px;
+    padding: 0 5px;
+}
+
+.req-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    color: whitesmoke;
+    background-color:rgb(61, 65, 70);
+    padding: 2px 15px 5px 15px;
+}
+
+.req-number {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    color: rgb(61, 65, 70);
+    background-color: lightgrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.your-con {
+    width: 100%;
+    min-height: 300px;
+    outline: 2px solid rgb(61, 65, 70);
+}
+
+.con-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    color: whitesmoke;
+    background-color:rgb(61, 65, 70);
+    padding: 2px 15px 5px 15px;
+}
+
+.con-number {
+    height: 30px;
+    width: 50px;
+    border-radius: 50%;
+    color: rgb(61, 65, 70);
+    background-color: lightgrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    color: rgb(43, 120, 228);
+}
+
+footer {
+    height: 45px;
+    outline: 2px solid rgb(61, 65, 70);
+    padding: 20px 15px 5px 15px;
+    font-size: 1.15rem;
+}
+/* NAVBAR */
+
+.navbar {
+    background-color: rgb(61, 65, 70);
+    height: 65px;
+    padding: 0px 20px;
+    margin-bottom: 30px;
+}
+
+.elements {
+    color: whitesmoke;
+    height: 65px;
+    width: 900px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.nav-links {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    width: 400px;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.navbar a {
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.btn {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.04rem;
+    color: whitesmoke;
+    background-color: teal;
+    border: 2px solid black;
+    box-shadow: 5px 5px black;
+    height: 30px;
+    width: 90px;
+}
+
+.active {
+    font-weight: bold;
+}
